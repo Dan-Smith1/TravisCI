@@ -1,0 +1,10 @@
+language: cpp
+compiler: gcc
+script: make && make test
+notifications:
+    email:
+        recipients:
+            - smithdr1@gcc.edu
+            - BeranekJD1@GCC.EDU
+        on_success: never # default: change
+        on_failure: always # default: always
